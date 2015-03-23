@@ -13,8 +13,8 @@ In this version of the online tutorial / book, we have updated and added a numbe
 * The code has been ported to work with Django 1.7
 	
 	* The database interaction has been updated from ``syncdb`` to ``migratesql`` and ``migrate``
-	* Rendering responses has been updated from ``render_to_response`` to ``render``. So now there is no need to request the context in every view.
-	* The ``url`` template tag is now being used in templates, which provides a relative reference to urls rather than an absolute reference..
+	* Rendering responses has been updated from ``render_to_response`` to ``render``. So now there is no need to request the context in every view
+	* The ``url`` template tag is now being used in templates, which provides a relative reference to urls rather than an absolute reference
 	* Loading static files in the templates is now done with {% load staticfiles %}
 	* Using ``slugify`` to create well formed URL strings
 
